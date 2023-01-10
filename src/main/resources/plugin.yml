@@ -1,0 +1,5 @@
+name: AutoPvPToggle
+version: '${version}'
+main: com.semivanilla.autopvptoggle.AutoPvPToggle
+api-version: 1.19
+depend: [ PvPManager ]
