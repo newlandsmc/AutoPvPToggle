@@ -25,7 +25,8 @@ public final class AutoPvPToggle extends JavaPlugin implements Listener {
         updatePlayer(event.getPlayer());
     }
     public void updatePlayer(Player player) {
-        PvPlayer p = PvPManager.getInstance().getPlayerHandler().get(player);
+        //PvPlayer p = PvPManager.getInstance().getPlayerHandler().get(player);
+        PvPlayer p = PvPlayer.get(player);
         p.setPvP(false);
     }
 }
